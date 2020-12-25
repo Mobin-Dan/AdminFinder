@@ -11,7 +11,7 @@ print'''
 
 '''
 
-url=raw_input("Enter Target's WebSite Url (ex:https/http website.com): ")
+url=raw_input("Enter Target's WebSite Url (ex:https/http://www.website.com): ")
 try:
     OF=open("admin.txt","r")
     for line in OF:

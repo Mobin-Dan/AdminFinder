@@ -5,7 +5,6 @@
 
 <h3>install<h3>
 <h5>
-```
 
 ```
 •apt update
@@ -13,4 +12,4 @@
 •git clone https://github.com/Mobin-Dan/AdminFinder.git
 •cd AdminFinder
 •python install.py
-.python2 adminfinder.py
+•python2 adminfinder.py

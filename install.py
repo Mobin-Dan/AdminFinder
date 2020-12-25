@@ -7,6 +7,6 @@ os.system("pip install -r requirements.txt")
 os.system("pip install colorama")
 os.system("pkg install cowsay")
 os.system("clear")
-os.system("cowsay run script :) |lolcat")
+print(Fore.RED+"run script:)")
 
 

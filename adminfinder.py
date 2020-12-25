@@ -1,6 +1,6 @@
 import urllib
 from colorama import Fore
-print'''
+print('''
             #################################################
             #################################################
             ##########  Ashiyane ADMINPAGE FindeR  ##########
@@ -9,7 +9,7 @@ print'''
             #################################################
             #################################################
 
-'''
+''')
 
 url=raw_input("Enter Target's WebSite Url (ex:https/http://www.website.com): ")
 try:
@@ -24,6 +24,6 @@ try:
     OF.close()
 except KeyboardInterrupt:
    print(Fore.GREEN)
-   print "Bye Bye !!!"
-   print "t.me/@World_warning"
+   print("Bye Bye !!!")
+   print("t.me/@World_warning")
 

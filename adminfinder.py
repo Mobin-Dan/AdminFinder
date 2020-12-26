@@ -6,6 +6,7 @@ print('''
             ##########  Ashiyane ADMINPAGE FindeR  ##########
             ############ CreaTed BY Mobin_dan‌‌ ‌ ‌‌    ##########
             ############  WE LOVE IRAN           ############
+            ############ t.me/termux_learning    ############
             #################################################
             #################################################
 
@@ -25,4 +26,4 @@ try:
 except KeyboardInterrupt:
    print(Fore.GREEN)
    print("Bye Bye !!!")
-   print("t.me/@World_warning")
+

@@ -11,5 +11,5 @@
 •pkg install git
 •git clone https://github.com/Mobin-Dan/AdminFinder.git
 •cd AdminFinder
-•python install.py
+•pip install -r requirements.txt
 •python2 adminfinder.py

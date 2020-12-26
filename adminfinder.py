@@ -1,4 +1,4 @@
-import urllib
+import requests as req
 from colorama import Fore
 print('''
             #################################################
@@ -11,13 +11,13 @@ print('''
 
 ''')
 
-url=raw_input("Enter Target's WebSite Url (ex:https/http://www.website.com): ")
+url=input("Enter Target's WebSite Url (ex:https/http://www.website.co>
 try:
     OF=open("admin.txt","r")
     for line in OF:
         url2=url +"/"+ line
-        site=urllib.urlopen(url2)
-        if site.code==200:
+        site=req.get(url2)
+        if site.status_code==200:
            print(Fore.GREEN+"[+]FOUND "+url2)
         else:
            print(Fore.RED+"[-]NOT FOUND "+url2)
@@ -26,4 +26,3 @@ except KeyboardInterrupt:
    print(Fore.GREEN)
    print("Bye Bye !!!")
    print("t.me/@World_warning")
-

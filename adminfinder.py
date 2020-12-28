@@ -12,7 +12,7 @@ print('''
 
 ''')
 
-url=input("Enter Target's WebSite Url (ex:https/http://www.website.co>
+url=input("Enter Target's WebSite Url:")
 try:
     OF=open("admin.txt","r")
     for line in OF:
